@@ -5,6 +5,21 @@ import "time"
 func newRUProvider() Provider {
 	return Provider{
 		DaysOff: []time.Time{
+			time.Date(2026, 1, 1, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 1, 2, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 1, 5, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 1, 6, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 1, 7, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 1, 8, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 1, 9, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 2, 23, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 3, 9, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 5, 1, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 5, 11, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 6, 12, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 11, 4, 0, 0, 0, 0, time.Local),
+			time.Date(2026, 12, 31, 0, 0, 0, 0, time.Local),
+
 			time.Date(2025, 1, 1, 0, 0, 0, 0, time.Local),
 			time.Date(2025, 1, 2, 0, 0, 0, 0, time.Local),
 			time.Date(2025, 1, 3, 0, 0, 0, 0, time.Local),
