@@ -5,6 +5,22 @@ import "time"
 func newRUProvider() Provider {
 	return Provider{
 		DaysOff: []time.Time{
+			time.Date(2027, 1, 1, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 1, 4, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 1, 5, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 1, 6, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 1, 7, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 1, 8, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 2, 22, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 2, 23, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 3, 8, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 5, 3, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 5, 10, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 6, 14, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 11, 4, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 11, 5, 0, 0, 0, 0, time.Local),
+			time.Date(2027, 12, 31, 0, 0, 0, 0, time.Local),
+
 			time.Date(2026, 1, 1, 0, 0, 0, 0, time.Local),
 			time.Date(2026, 1, 2, 0, 0, 0, 0, time.Local),
 			time.Date(2026, 1, 5, 0, 0, 0, 0, time.Local),
@@ -55,6 +71,8 @@ func newRUProvider() Provider {
 			time.Date(2024, 12, 31, 0, 0, 0, 0, time.Local),
 		},
 		WorkDays: []time.Time{
+			time.Date(2027, 2, 20, 0, 0, 0, 0, time.Local),
+
 			time.Date(2025, 11, 1, 0, 0, 0, 0, time.Local),
 
 			time.Date(2024, 04, 27, 0, 0, 0, 0, time.Local),
